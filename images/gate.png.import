@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://8b4x40vlmmi8"
-path="res://.godot/imported/Basic_Furniture.png-fa3e7578b2116356884dbc032847c0ae.ctex"
+uid="uid://c3fpekkvjcvec"
+path="res://.godot/imported/gate.png-76a810ee32d92204a7a28e55e82362be.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://learn2/Objects/Basic_Furniture.png"
-dest_files=["res://.godot/imported/Basic_Furniture.png-fa3e7578b2116356884dbc032847c0ae.ctex"]
+source_file="res://images/gate.png"
+dest_files=["res://.godot/imported/gate.png-76a810ee32d92204a7a28e55e82362be.ctex"]
 
 [params]
 

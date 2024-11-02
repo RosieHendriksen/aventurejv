@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://s3vdxgfh2f18"
-path="res://.godot/imported/Basic_Plants.png-a0cf8f25b1c24269fc156ed919d660b6.ctex"
+uid="uid://by5foenwmgykd"
+path="res://.godot/imported/caveEntrance.png-1723a239e9b890b00cb65855074c60fa.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://learn2/Objects/Basic_Plants.png"
-dest_files=["res://.godot/imported/Basic_Plants.png-a0cf8f25b1c24269fc156ed919d660b6.ctex"]
+source_file="res://images/caveEntrance.png"
+dest_files=["res://.godot/imported/caveEntrance.png-1723a239e9b890b00cb65855074c60fa.ctex"]
 
 [params]
 
