@@ -1,8 +1,8 @@
 [gd_scene load_steps=7 format=3 uid="uid://cko4uyvu6q2f8"]
 
-[ext_resource type="PackedScene" uid="uid://bq5tsltbulbpq" path="res://characterScenes/player_cat.tscn" id="1_xk6em"]
-[ext_resource type="Texture2D" uid="uid://dkjxy7fipr5rv" path="res://Tilesets/Grass.png" id="2_l6b1p"]
-[ext_resource type="Texture2D" uid="uid://fx3ah0end6ii" path="res://Tilesets/Hills.png" id="3_luul4"]
+[ext_resource type="PackedScene" uid="uid://bq5tsltbulbpq" path="res://learn2/characterScenes/player_cat.tscn" id="1_xk6em"]
+[ext_resource type="Texture2D" uid="uid://dkjxy7fipr5rv" path="res://learn2/Tilesets/Grass.png" id="2_l6b1p"]
+[ext_resource type="Texture2D" uid="uid://fx3ah0end6ii" path="res://learn2/Tilesets/Hills.png" id="3_luul4"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ya8qt"]
 texture = ExtResource("2_l6b1p")

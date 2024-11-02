@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dac385t7bki6c"
-path="res://.godot/imported/Wood_Bridge.png-b3c05b24d1a4be51ad8686ead2d5cb3b.ctex"
+path="res://.godot/imported/Wood_Bridge.png-ec57309a38e303169ead1247d08cadfc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Objects/Wood_Bridge.png"
-dest_files=["res://.godot/imported/Wood_Bridge.png-b3c05b24d1a4be51ad8686ead2d5cb3b.ctex"]
+source_file="res://learn2/Objects/Wood_Bridge.png"
+dest_files=["res://.godot/imported/Wood_Bridge.png-ec57309a38e303169ead1247d08cadfc.ctex"]
 
 [params]
 

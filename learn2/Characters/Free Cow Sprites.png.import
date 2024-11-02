@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cu6f37rdfwfib"
-path="res://.godot/imported/Free Cow Sprites.png-ed7acb642527935130ea1b28281b2e54.ctex"
+path="res://.godot/imported/Free Cow Sprites.png-3e431d0c63104e82f4f4ba05d623df2c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Characters/Free Cow Sprites.png"
-dest_files=["res://.godot/imported/Free Cow Sprites.png-ed7acb642527935130ea1b28281b2e54.ctex"]
+source_file="res://learn2/Characters/Free Cow Sprites.png"
+dest_files=["res://.godot/imported/Free Cow Sprites.png-3e431d0c63104e82f4f4ba05d623df2c.ctex"]
 
 [params]
 

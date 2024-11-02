@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c315a2agsaw3t"
-path="res://.godot/imported/Bitmask references 1.png-6ee6ef22445def10b329f0217d26cb56.ctex"
+path="res://.godot/imported/Bitmask references 1.png-4ea540f884d6de2d1f27e6fc933645b1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Tilesets/Bitmask references 1.png"
-dest_files=["res://.godot/imported/Bitmask references 1.png-6ee6ef22445def10b329f0217d26cb56.ctex"]
+source_file="res://learn2/Tilesets/Bitmask references 1.png"
+dest_files=["res://.godot/imported/Bitmask references 1.png-4ea540f884d6de2d1f27e6fc933645b1.ctex"]
 
 [params]
 
