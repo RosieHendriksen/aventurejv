@@ -1,0 +1,26 @@
+[gd_scene load_steps=6 format=3 uid="uid://ylemf5kdrxtl"]
+
+[ext_resource type="Texture2D" uid="uid://b2nfcecfaborr" path="res://icon.svg" id="1_2erlx"]
+[ext_resource type="Script" path="res://scenes/level.gd" id="1_3di6f"]
+[ext_resource type="Script" path="res://scenes/sprite_2d.gd" id="2_jvonq"]
+[ext_resource type="PackedScene" uid="uid://7lshardescn8" path="res://objects/wall.tscn" id="4_ig3nx"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_bovjn"]
+radius = 56.5797
+height = 125.217
+
+[node name="level" type="Node2D"]
+script = ExtResource("1_3di6f")
+
+[node name="player" type="CharacterBody2D" parent="."]
+scale = Vector2(2.0625, 2.15625)
+script = ExtResource("2_jvonq")
+
+[node name="Sprite2D" type="Sprite2D" parent="player"]
+texture = ExtResource("1_2erlx")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="player"]
+shape = SubResource("CapsuleShape2D_bovjn")
+
+[node name="Wall" parent="." instance=ExtResource("4_ig3nx")]
+position = Vector2(344, 108)
