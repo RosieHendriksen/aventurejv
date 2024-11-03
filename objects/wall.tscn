@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://7lshardescn8"]
 
-[ext_resource type="Texture2D" uid="uid://b6cla3w1y2jbk" path="res://images/boundary-wall.png" id="1_y7ira"]
+[ext_resource type="Texture2D" uid="uid://b6cla3w1y2jbk" path="res://images/boundary-wall.png" id="1_2avxm"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_62xih"]
 size = Vector2(212, 45)
@@ -11,7 +11,7 @@ position = Vector2(-11, 0)
 [node name="Wall1" type="Sprite2D" parent="."]
 position = Vector2(207.625, 51.75)
 scale = Vector2(0.585417, 0.595833)
-texture = ExtResource("1_y7ira")
+texture = ExtResource("1_2avxm")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(208, 53.5)

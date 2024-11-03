@@ -1,11 +1,11 @@
-[gd_scene load_steps=10 format=4 uid="uid://v1gm7l8yut30"]
+[gd_scene load_steps=10 format=4 uid="uid://ewshbuq1u2yc"]
 
 [ext_resource type="Script" path="res://scenes/level.gd" id="1_vn1fp"]
 [ext_resource type="Texture2D" uid="uid://i6ftqkh5sgl5" path="res://tilesets/caves-rails-tileset-beta-1.0.png" id="2_akkab"]
 [ext_resource type="PackedScene" uid="uid://7lshardescn8" path="res://objects/wall.tscn" id="3_coem1"]
 [ext_resource type="PackedScene" uid="uid://c5k6ayuofdgns" path="res://objects/caveEntrance.tscn" id="4_buxmp"]
 [ext_resource type="PackedScene" uid="uid://0dtvq0rvrfll" path="res://Playable characters/player1.tscn" id="5_5a4lr"]
-[ext_resource type="PackedScene" uid="uid://48443krqfpim" path="res://objects/gem.tscn" id="6_kx0v0"]
+[ext_resource type="PackedScene" uid="uid://dt3aismql358v" path="res://objects/gem.tscn" id="6_kx0v0"]
 [ext_resource type="Script" path="res://scenes/balance.gd" id="7_l8xro"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_iiy0b"]
@@ -200,12 +200,15 @@ position_smoothing_enabled = true
 
 [node name="Gem" parent="." instance=ExtResource("6_kx0v0")]
 position = Vector2(407, 612)
+script = null
 
 [node name="Gem2" parent="." instance=ExtResource("6_kx0v0")]
 position = Vector2(955, 281)
+script = null
 
 [node name="Gem3" parent="." instance=ExtResource("6_kx0v0")]
 position = Vector2(-192, 407)
+script = null
 
 [node name="UI" type="CanvasLayer" parent="."]
 
@@ -218,37 +221,34 @@ script = ExtResource("7_l8xro")
 
 [node name="Gem4" parent="." instance=ExtResource("6_kx0v0")]
 position = Vector2(1273, 612)
+script = null
 
 [node name="Gem5" parent="." instance=ExtResource("6_kx0v0")]
 position = Vector2(304, -160)
+script = null
 
 [node name="Gem6" parent="." instance=ExtResource("6_kx0v0")]
 position = Vector2(-533, 340)
+script = null
 
 [node name="Gem7" parent="." instance=ExtResource("6_kx0v0")]
 position = Vector2(-348, 120)
+script = null
 
 [node name="Gem8" parent="." instance=ExtResource("6_kx0v0")]
 position = Vector2(871, 17)
+script = null
 
 [node name="Gem9" parent="." instance=ExtResource("6_kx0v0")]
 position = Vector2(-353, -124)
+script = null
 
 [node name="Gem10" parent="." instance=ExtResource("6_kx0v0")]
 position = Vector2(1148, -328)
+script = null
 
 [node name="Gem11" parent="." instance=ExtResource("6_kx0v0")]
 position = Vector2(304, 57)
+script = null
 
 [connection signal="player_entered_cave" from="Cave" to="." method="_on_cave_player_entered_cave"]
-[connection signal="player_picked_up_gem" from="Gem" to="UI/Balance" method="_on_gem_player_picked_up_gem"]
-[connection signal="player_picked_up_gem" from="Gem2" to="UI/Balance" method="_on_gem_2_player_picked_up_gem"]
-[connection signal="player_picked_up_gem" from="Gem3" to="UI/Balance" method="_on_gem_3_player_picked_up_gem"]
-[connection signal="player_picked_up_gem" from="Gem4" to="UI/Balance" method="_on_gem_4_player_picked_up_gem"]
-[connection signal="player_picked_up_gem" from="Gem5" to="UI/Balance" method="_on_gem_5_player_picked_up_gem"]
-[connection signal="player_picked_up_gem" from="Gem6" to="UI/Balance" method="_on_gem_6_player_picked_up_gem"]
-[connection signal="player_picked_up_gem" from="Gem7" to="UI/Balance" method="_on_gem_7_player_picked_up_gem"]
-[connection signal="player_picked_up_gem" from="Gem8" to="UI/Balance" method="_on_gem_8_player_picked_up_gem"]
-[connection signal="player_picked_up_gem" from="Gem9" to="UI/Balance" method="_on_gem_9_player_picked_up_gem"]
-[connection signal="player_picked_up_gem" from="Gem10" to="UI/Balance" method="_on_gem_10_player_picked_up_gem"]
-[connection signal="player_picked_up_gem" from="Gem11" to="UI/Balance" method="_on_gem_11_player_picked_up_gem"]
