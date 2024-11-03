@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://0dtvq0rvrfll"]
 
-[ext_resource type="Script" path="res://Playable characters/player_1.gd" id="1_a5h5f"]
-[ext_resource type="Texture2D" uid="uid://bmf3jco0lyp2h" path="res://Playable characters/minerImage.png" id="2_cv5uv"]
+[ext_resource type="Script" path="res://Playable characters/player_1.gd" id="1_24gew"]
+[ext_resource type="Texture2D" uid="uid://bmf3jco0lyp2h" path="res://Playable characters/minerImage.png" id="2_wovu4"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_xjd8q"]
 radius = 22.0
@@ -9,12 +9,12 @@ height = 54.0
 
 [node name="Player" type="CharacterBody2D"]
 position = Vector2(190, 202)
-script = ExtResource("1_a5h5f")
+script = ExtResource("1_24gew")
 
 [node name="MinerImage" type="Sprite2D" parent="."]
 position = Vector2(24.3239, 19.2228)
 scale = Vector2(0.25987, 0.208851)
-texture = ExtResource("2_cv5uv")
+texture = ExtResource("2_wovu4")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(18, 19)

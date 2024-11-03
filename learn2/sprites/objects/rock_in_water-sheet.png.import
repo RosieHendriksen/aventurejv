@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cgefrgr3fdoio"
-path="res://.godot/imported/rock_in_water-sheet.png-e1d7d1ffc9a96fe60f63d210a2d26941.ctex"
+path="res://.godot/imported/rock_in_water-sheet.png-177a87f66772343a8e18f19c6d25d160.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/objects/rock_in_water-sheet.png"
-dest_files=["res://.godot/imported/rock_in_water-sheet.png-e1d7d1ffc9a96fe60f63d210a2d26941.ctex"]
+source_file="res://learn2/sprites/objects/rock_in_water-sheet.png"
+dest_files=["res://.godot/imported/rock_in_water-sheet.png-177a87f66772343a8e18f19c6d25d160.ctex"]
 
 [params]
 
