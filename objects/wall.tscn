@@ -3,16 +3,16 @@
 [ext_resource type="Texture2D" uid="uid://b6cla3w1y2jbk" path="res://images/boundary-wall.png" id="1_y7ira"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_62xih"]
-size = Vector2(292, 52)
+size = Vector2(212, 45)
 
 [node name="Wall" type="StaticBody2D"]
 position = Vector2(-11, 0)
 
 [node name="Wall1" type="Sprite2D" parent="."]
-position = Vector2(249, 68)
-scale = Vector2(0.815278, 0.686111)
+position = Vector2(207.625, 51.75)
+scale = Vector2(0.585417, 0.595833)
 texture = ExtResource("1_y7ira")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(249, 70)
+position = Vector2(208, 53.5)
 shape = SubResource("RectangleShape2D_62xih")

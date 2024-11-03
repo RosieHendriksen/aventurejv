@@ -14,4 +14,8 @@ func _process(delta: float) -> void:
 	
 	if Input.is_action_just_pressed("interact"):
 		print("open dialogue")
-	pass
+
+
+func _on_cave_player_entered_cave(body: Variant) -> void:
+	print("body has entered")
+	print(body)

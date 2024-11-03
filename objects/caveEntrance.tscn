@@ -1,0 +1,28 @@
+[gd_scene load_steps=4 format=3 uid="uid://c5k6ayuofdgns"]
+
+[ext_resource type="Script" path="res://objects/cave_entrance.gd" id="1_1f02o"]
+[ext_resource type="Texture2D" uid="uid://d3ongbong75x" path="res://images/caveOutline.png" id="2_q3lbq"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pi8es"]
+size = Vector2(167.5, 77.5)
+
+[node name="Cave" type="StaticBody2D"]
+script = ExtResource("1_1f02o")
+
+[node name="CaveOutline" type="Sprite2D" parent="."]
+position = Vector2(162.148, 178.012)
+rotation = -0.6353
+scale = Vector2(0.143134, 0.231063)
+texture = ExtResource("2_q3lbq")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(-148, 117, 197, -135, 422, 164, 405, 175, 399, 178, 401, 185, 360, 182, 340, 162, 295, 135, 248, 94, 204, 55, 182, 24, 156, 2, 135, -30, 88, -33, 60, -16, 54, 17, 44, 49, 16, 67, 25, 97, 49, 138, 58, 164, 53, 202, 53, 223, 51, 253, 50, 274, 56, 298, 63, 321, 56, 345, 46, 373, 3, 319)
+
+[node name="Area2D" type="Area2D" parent="."]
+position = Vector2(493, -71)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(-360, 77)
+shape = SubResource("RectangleShape2D_pi8es")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
